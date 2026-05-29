@@ -1,8 +1,8 @@
-# Interflow
+# Interwave
 
 > The open-source Intercom. Built for developers. Free to self-host.
 
-Intercom priced out the developers who needed it most. Interflow gives it back.
+Intercom priced out the developers who needed it most. Interwave gives it back.
 
 Self-hostable customer support infrastructure — Linear-style UI, MCP and SDK native from day one, AI that knows your product, and a free tier that is actually free. No upgrade walls. No vendor lock-in. No invoice surprises.
 
@@ -14,7 +14,7 @@ Intercom is good software. It is also software that has systematically priced ou
 
 No real free tier. AI locked behind a premium add-on. No MCP tools. No self-hosting. A UI that was designed for support agents, not for developers who want to move fast. And if you want your own model — you cannot. You take theirs, at their price, on their terms.
 
-Interflow is the alternative that should have existed already.
+Interwave is the alternative that should have existed already.
 
 Open source core. Genuine free tier. MCP and SDK built in — not bolted on later. AI that is trained on your product, not a generic bot. A UI that thinks like Linear. Deployable in one command. Your data, your infrastructure, your call.
 
@@ -32,7 +32,7 @@ The entire core platform is MIT licensed and free to self-host.
 - **REST API** — complete API surface for contacts, conversations, workspace, webhooks
 
 ```
-interflow/
+Interwave/
 ├── apps/
 │   ├── web/          ← Main dashboard (Next.js 15)
 │   ├── widget/       ← Embeddable chat widget
@@ -135,8 +135,8 @@ Every decision in this stack was made for one reason — to keep self-hosting si
 
 ```bash
 # Clone the repo
-git clone https://github.com/darshilptl/interflow.git
-cd interflow
+git clone https://github.com/darshilptl/Interwave.git
+cd Interwave
 
 # Install dependencies
 pnpm install
@@ -149,7 +149,7 @@ cp .env.example .env.local
 pnpm dev
 ```
 
-Full self-host documentation — including Docker setup and one-command deployment — will live at `docs.interflow.dev` once the core ships.
+Full self-host documentation — including Docker setup and one-command deployment — will live at `docs.Interwave.dev` once the core ships.
 
 ---
 
@@ -173,7 +173,7 @@ The UI is built on a Linear-style design system defined before the first compone
 
 ## Contributing
 
-Interflow is in active foundation development. The contributing window is not fully open yet — and this README will not pretend otherwise.
+Interwave is in active foundation development. The contributing window is not fully open yet — and this README will not pretend otherwise.
 
 **What is welcome right now:**
 
